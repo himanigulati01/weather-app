@@ -26,13 +26,14 @@ h1 {
   font-size: 64px;
   margin-bottom: 16px;
 }
-header a {
+a {
   color: #888888;
   text-decoration: none;
   margin-right: 16px;
 }
 .portrait {
   width: 250px;
+  border-radius: 50%;
 }
 input {
   border: 1px solid #cccccc;
@@ -48,6 +49,10 @@ button {
 button:hover {
   background-color: #414040;
 }
-img {
-  border-radius: 50%;
+
+.icons {
+  width: 20px;
+}
+a:hover {
+  color: #363636;
 }
