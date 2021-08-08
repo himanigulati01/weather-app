@@ -1,11 +1,13 @@
 const weatherForm = document.querySelector("form");
 const search = document.querySelector("input");
+
 weatherForm.addEventListener("submit", (event) => {
   event.preventDefault();
   messageOne.textContent = "Loading...";
   messageTwo.textContent = "";
   fetchForecast();
 });
+
 let messageOne = document.getElementById("message-1");
 let messageTwo = document.getElementById("message-2");
 messageOne.textContent = "";
